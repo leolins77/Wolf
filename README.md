@@ -31,11 +31,11 @@ Este projeto está alinhado com o **ODS 8 - Trabalho Decente e Crescimento Econ�
 ## Backlog e Desenvolvimento
 ###  **Jira**
 Para organização das tarefas e acompanhamento do desenvolvimento, utilizamos o Jira. Acesse nosso backlog e sprints:
-[🔗 [Link do Jira](#)](https://cesar---bezy.atlassian.net/jira/software/projects/BEZY/boards/1)
+[🔗(https://cesar---bezy.atlassian.net/jira/software/projects/BEZY/boards/1)
 
 ###  **Protótipos Lo-Fi (Figma)**
 Os protótipos iniciais estão disponíveis no Figma para consulta e validação:
-[🔗 [Link do Figma](#)(https://www.figma.com/design/WtoO9gaEcyqsauhtwaG4AT/Bezy?node-id=0-1&t=8OoTdwuGRAdYUSxn-1 )
+[🔗(https://www.figma.com/design/WtoO9gaEcyqsauhtwaG4AT/Bezy?node-id=0-1&t=8OoTdwuGRAdYUSxn-1 )
 
 
 ## 📌 Status do Projeto
