@@ -35,7 +35,7 @@ Para organização das tarefas e acompanhamento do desenvolvimento, utilizamos o
 
 ###  **Protótipos Lo-Fi (Figma)**
 Os protótipos iniciais estão disponíveis no Figma para consulta e validação:
-[🔗(https://www.figma.com/design/WtoO9gaEcyqsauhtwaG4AT/Bezy?node-id=0-1&t=8OoTdwuGRAdYUSxn-1 )
+[🔗https://www.figma.com/proto/WtoO9gaEcyqsauhtwaG4AT/Bezy?node-id=9-627&p=f&t=4xViWbnZh93HmdGv-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=9%3A627)
 
 
 ## 📌 Status do Projeto
