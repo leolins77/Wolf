@@ -46,6 +46,9 @@ Para organização das tarefas e acompanhamento do desenvolvimento, utilizamos o
 Os protótipos iniciais estão disponíveis no Figma para consulta e validação:
 [🔗https://www.figma.com/proto/WtoO9gaEcyqsauhtwaG4AT/Bezy?node-id=9-627&p=f&t=4xViWbnZh93HmdGv-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=9%3A627)
 
+###  **Screencast do Projeto**
+Aqui está o link para o Screencast:
+https://www.youtube.com/watch?v=6zeOWeKXAes
 
 ## 📌 Status do Projeto
 - ✅ **Kickoff** ✅ *(Concluído)*
