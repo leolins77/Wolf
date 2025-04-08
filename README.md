@@ -17,7 +17,7 @@ O **Bezy** é uma plataforma que conecta profissionais autônomos de beleza a cl
 Este projeto está alinhado com o **ODS 8 - Trabalho Decente e Crescimento Econômico**, pois incentiva o empreendedorismo no setor de beleza, promovendo oportunidades e facilitando a geração de renda para profissionais autônomos.
 
 ## Funcionalidades Principais
-1. **Cadastro e Login** - Perfis personalizados para clientes e profissionais. 
+1. **Cadastro e Login** - Perfis para clientes e profissionais. 
 2. **Criação e Personalização de Perfil** - Profissionais podem adicionar portfólio, preços e serviços.
 3. **Agenda Integrada e Gerenciamento de Horários** - Ferramenta para organização de atendimentos.
 4. **Sistema de Agendamento Online** - Clientes podem buscar e contratar profissionais.
@@ -53,7 +53,7 @@ Como cliente, quero agendar um horário com um profissional para garantir meu at
 ### 2. Cadastro e Login
 
 *Card:*  
-Como usuário, quero me cadastrar e fazer login para acessar a plataforma.
+Como usuário, quero me cadastrar e criar um perfil para acessar os serviços do Bezy.
 
 *Conversation:*  
 - Usuário escolhe se é cliente ou profissional e preenche formulário.  
@@ -108,8 +108,7 @@ Como cliente, quero visualizar os profissionais disponíveis e filtrar por espec
 Como cliente quero poder editar meus dados pessoais para manter meu perfil atualizado.
 
 *Conversation:*  
-- Acessar perfil para alterar dados pessoais. 
-- Acessar perfil para alterar foto e nome.
+- Usuário acessa seu perfil e consegue alterar todos os seus dados.
 
 *Confirmation:*  
 - [ ] Tela de atualização de perfil (em construção)
