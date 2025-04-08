@@ -36,6 +36,7 @@ Este projeto está alinhado com o **ODS 8 - Trabalho Decente e Crescimento Econ�
 8. **Chat e Suporte** - Comunicação direta entre clientes e profissionais.
 9. **Notificações Push e Lembretes** - Alertas automáticos sobre agendamentos.
 10. **Dashboard Analítico para Profissionais** - Estatísticas de atendimentos e feedbacks.
+
 ## 🧩 Histórias de Usuário (3Cs)
 
 ### 1. Agendamento com Profissional
@@ -43,12 +44,12 @@ Este projeto está alinhado com o **ODS 8 - Trabalho Decente e Crescimento Econ�
 *Card:*  
 Como cliente, quero agendar um horário com um profissional para garantir meu atendimento.
 
-*Conversação:*  
+*Conversation:*  
 - O cliente escolhe o profissional, vê os horários disponíveis e agenda.  
 - Um e-mail ou notificação é enviado confirmando o agendamento.  
 - Cancelamento possível com no mínimo 1h de antecedência.
 
-*Confirmação:*  
+*Confirmation:*  
 - [x] Tela de busca de profissionais (Protótipo ✅)  
 - [x] Visualização de horários e botão de agendar (Protótipo ✅)  
 - [ ] Confirmação por e-mail ou notificação (em construção)  
@@ -61,11 +62,11 @@ Como cliente, quero agendar um horário com um profissional para garantir meu at
 *Card:*  
 Como usuário, quero me cadastrar e fazer login para acessar a plataforma.
 
-*Conversação:*  
+*Conversation:*  
 - Usuário escolhe se é cliente ou profissional e preenche formulário.  
 - Após o login, é redirecionado para sua área de perfil.
 
-*Confirmação:*  
+*Confirmation:*  
 - [x] Tela de login e escolha de perfil (Protótipo ✅)  
 - [x] Tela de cadastro com dados básicos (Protótipo ✅)  
 - [ ] Redirecionamento para dashboard (em construção)
@@ -77,11 +78,11 @@ Como usuário, quero me cadastrar e fazer login para acessar a plataforma.
 *Card:*  
 Como profissional, quero criar meu perfil com serviços e preços para atrair clientes.
 
-*Conversação:*  
+*Conversation:*  
 - Preenche descrição, especialidades e valores.  
 - Adiciona portfólio e disponibilidade.
 
-*Confirmação:*  
+*Confirmation:*  
 - [x] Tela de edição de perfil profissional (Protótipo ✅)  
 - [ ] Portfólio e feedbacks visíveis ao cliente (em construção)
 
@@ -92,11 +93,11 @@ Como profissional, quero criar meu perfil com serviços e preços para atrair cl
 *Card:*  
 Como cliente, quero visualizar os profissionais disponíveis e filtrar por especialidade.
 
-*Conversação:*  
+*Conversation:*  
 - A busca pode ser feita por nome, localização ou especialidade.  
 - Resultados são apresentados com nome, avaliação e serviço.
 
-*Confirmação:*  
+*Confirmation:*  
 - [x] Tela de lista de profissionais (Protótipo ✅)  
 - [ ] Filtro por especialidade e localização (em construção)
 
@@ -107,11 +108,11 @@ Como cliente, quero visualizar os profissionais disponíveis e filtrar por espec
 *Card:*  
 Como cliente, quero avaliar um profissional após o atendimento.
 
-*Conversação:*  
+*Conversation:*  
 - Após o serviço, é exibido um formulário de avaliação.  
 - O profissional vê sua média de avaliações no perfil.
 
-*Confirmação:*  
+*Confirmation:*  
 - [ ] Tela de avaliação após serviço (em construção)  
 - [ ] Visualização de reputação no perfil (em construção)
 
