@@ -103,18 +103,17 @@ Como cliente, quero visualizar os profissionais disponíveis e filtrar por espec
 
 ---
 
-### 5. Sistema de Avaliação
+### 5. Edição de Perfil e Dados
 
 *Card:*  
-Como cliente, quero avaliar um profissional após o atendimento.
+Como cliente quero poder editar meus dados pessoais para manter meu perfil atualizado.
 
 *Conversation:*  
-- Após o serviço, é exibido um formulário de avaliação.  
-- O profissional vê sua média de avaliações no perfil.
+- Acessar perfil para alterar dados pessoais. 
+- Acessar perfil para alterar foto e nome.
 
 *Confirmation:*  
-- [ ] Tela de avaliação após serviço (em construção)  
-- [ ] Visualização de reputação no perfil (em construção)
+- [ ] Tela de atualização de perfil (em construção)  
 
 ## Backlog e Desenvolvimento
 ###  **Jira**
