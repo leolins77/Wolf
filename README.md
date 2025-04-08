@@ -18,18 +18,9 @@ Este projeto está alinhado com o **ODS 8 - Trabalho Decente e Crescimento Econ�
 
 ## Funcionalidades Principais
 1. **Cadastro e Login** - Perfis personalizados para clientes e profissionais. 
-     
-![image](https://github.com/user-attachments/assets/85a6922f-bc7f-46d5-920c-77343231c0a0)
-                      
 2. **Criação e Personalização de Perfil** - Profissionais podem adicionar portfólio, preços e serviços.
-
-![image](https://github.com/user-attachments/assets/6cb2e8b6-79a6-44f1-b984-4db87df6b83e)
-
 3. **Agenda Integrada e Gerenciamento de Horários** - Ferramenta para organização de atendimentos.
 4. **Sistema de Agendamento Online** - Clientes podem buscar e contratar profissionais.
-
-![image](https://github.com/user-attachments/assets/91d99abf-ed20-48da-af2b-3b53c0c6367b)
-
 5. **Pagamento Integrado e Seguro** - Suporte para cartão, PIX e reembolsos.
 6. **Avaliações e Sistema de Reputação** - Feedbacks para aumentar a confiança na plataforma.
 7. **Geolocalização e Filtros Avançados** - Busca por distância e especialidades.
@@ -55,6 +46,8 @@ Como cliente, quero agendar um horário com um profissional para garantir meu at
 - [ ] Confirmação por e-mail ou notificação (em construção)  
 - [ ] Cancelamento com até 1h de antecedência (em construção)
 
+![image](https://github.com/user-attachments/assets/91d99abf-ed20-48da-af2b-3b53c0c6367b)
+
 ---
 
 ### 2. Cadastro e Login
@@ -71,6 +64,8 @@ Como usuário, quero me cadastrar e fazer login para acessar a plataforma.
 - [x] Tela de cadastro com dados básicos (Protótipo ✅)  
 - [ ] Redirecionamento para dashboard (em construção)
 
+![image](https://github.com/user-attachments/assets/85a6922f-bc7f-46d5-920c-77343231c0a0)
+
 ---
 
 ### 3. Criação de Perfil Profissional
@@ -85,6 +80,8 @@ Como profissional, quero criar meu perfil com serviços e preços para atrair cl
 *Confirmation:*  
 - [x] Tela de edição de perfil profissional (Protótipo ✅)  
 - [ ] Portfólio e feedbacks visíveis ao cliente (em construção)
+
+![image](https://github.com/user-attachments/assets/6cb2e8b6-79a6-44f1-b984-4db87df6b83e)
 
 ---
 
@@ -101,6 +98,8 @@ Como cliente, quero visualizar os profissionais disponíveis e filtrar por espec
 - [x] Tela de lista de profissionais (Protótipo ✅)  
 - [ ] Filtro por especialidade e localização (em construção)
 
+![image](https://github.com/user-attachments/assets/16d85b28-8013-4580-be8a-b062e3ec4c34)
+
 ---
 
 ### 5. Edição de Perfil e Dados
@@ -113,7 +112,10 @@ Como cliente quero poder editar meus dados pessoais para manter meu perfil atual
 - Acessar perfil para alterar foto e nome.
 
 *Confirmation:*  
-- [ ] Tela de atualização de perfil (em construção)  
+- [ ] Tela de atualização de perfil (em construção)
+
+![image](https://github.com/user-attachments/assets/e09a218f-0193-4418-a433-1e6b1aeb4050)
+
 
 ## Backlog e Desenvolvimento
 ###  **Jira**
