@@ -1,70 +1,127 @@
-# Getting Started with Create React App
+# Bezy - Plataforma de Serviços de Beleza
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Sobre o Projeto
+O **Bezy** é uma plataforma que conecta profissionais autônomos de beleza a clientes, facilitando agendamentos, pagamentos e avaliações em um só lugar. Nosso objetivo é trazer praticidade para quem busca serviços de beleza e oferecer uma ferramenta eficiente para profissionais organizarem seus atendimentos.
 
-## Available Scripts
+## Problema e Solução
+**Problema:** Profissionais autônomos de beleza enfrentam dificuldades para atrair clientes e gerenciar seus horários, enquanto clientes têm dificuldade em encontrar serviços de qualidade disponíveis a domicílio.
 
-In the project directory, you can run:
+**Solução:** O Bezy oferece uma plataforma intuitiva onde profissionais podem exibir seus serviços, gerenciar sua agenda e receber pagamentos de forma segura, enquanto clientes encontram e contratam serviços de maneira prática e confiável.
 
-### `npm start`
+## Equipe
+- **João Eduardo Monteiro Cavalcanti**
+- **Jonas de Lima Neto**
+- **Leonardo Felipe Demetrio Lins Nascimento**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Alinhamento com os ODS
+Este projeto está alinhado com o **ODS 8 - Trabalho Decente e Crescimento Econômico**, pois incentiva o empreendedorismo no setor de beleza, promovendo oportunidades e facilitando a geração de renda para profissionais autônomos.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Funcionalidades Principais
+1. **Cadastro e Login** - Perfis personalizados para clientes e profissionais.  
+2. **Criação e Personalização de Perfil** - Profissionais podem adicionar portfólio, preços e serviços.  
+3. **Agenda Integrada e Gerenciamento de Horários** - Ferramenta para organização de atendimentos.  
+4. **Sistema de Agendamento Online** - Clientes podem buscar e contratar profissionais.  
+5. **Pagamento Integrado e Seguro** - Suporte para cartão, PIX e reembolsos.  
+6. **Avaliações e Sistema de Reputação** - Feedbacks para aumentar a confiança na plataforma.  
+7. **Geolocalização e Filtros Avançados** - Busca por distância e especialidades.  
+8. **Chat e Suporte** - Comunicação direta entre clientes e profissionais.  
+9. **Notificações Push e Lembretes** - Alertas automáticos sobre agendamentos.  
+10. **Dashboard Analítico para Profissionais** - Estatísticas de atendimentos e feedbacks.
 
-### `npm test`
+## 🧩 Histórias de Usuário (3Cs)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 1. Agendamento com Profissional
 
-### `npm run build`
+**Card:**  
+Como cliente, quero agendar um horário com um profissional para garantir meu atendimento.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+**Conversation:**  
+- O cliente escolhe o profissional, vê os horários disponíveis e agenda.  
+- Um e-mail ou notificação é enviado confirmando o agendamento.  
+- Cancelamento possível com no mínimo 1h de antecedência.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**Confirmation:**  
+- [x] Tela de busca de profissionais (Protótipo ✅)  
+- [x] Visualização de horários e botão de agendar (Protótipo ✅)  
+- [ ] Confirmação por e-mail ou notificação *(em construção)*  
+- [ ] Cancelamento com até 1h de antecedência *(em construção)*
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+### 2. Cadastro e Login
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**Card:**  
+Como usuário, quero me cadastrar e fazer login para acessar a plataforma.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**Conversation:**  
+- Usuário escolhe se é cliente ou profissional e preenche formulário.  
+- Após o login, é redirecionado para sua área de perfil.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**Confirmation:**  
+- [x] Tela de login e escolha de perfil (Protótipo ✅)  
+- [x] Tela de cadastro com dados básicos (Protótipo ✅)  
+- [ ] Redirecionamento para dashboard *(em construção)*
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+### 3. Criação de Perfil Profissional
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**Card:**  
+Como profissional, quero criar meu perfil com serviços e preços para atrair clientes.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**Conversation:**  
+- Preenche descrição, especialidades e valores.  
+- Adiciona portfólio e disponibilidade.
 
-### Code Splitting
+**Confirmation:**  
+- [x] Tela de edição de perfil profissional (Protótipo ✅)  
+- [ ] Portfólio e feedbacks visíveis ao cliente *(em construção)*
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+### 4. Visualização de Profissionais
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+**Card:**  
+Como cliente, quero visualizar os profissionais disponíveis e filtrar por especialidade.
 
-### Making a Progressive Web App
+**Conversation:**  
+- A busca pode ser feita por nome, localização ou especialidade.  
+- Resultados são apresentados com nome, avaliação e serviço.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+**Confirmation:**  
+- [x] Tela de lista de profissionais (Protótipo ✅)  
+- [ ] Filtro por especialidade e localização *(em construção)*
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### 5. Sistema de Avaliação
 
-### Deployment
+**Card:**  
+Como cliente, quero avaliar um profissional após o atendimento.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+**Conversation:**  
+- Após o serviço, é exibido um formulário de avaliação.  
+- O profissional vê sua média de avaliações no perfil.
 
-### `npm run build` fails to minify
+**Confirmation:**  
+- [ ] Tela de avaliação após serviço *(em construção)*  
+- [ ] Visualização de reputação no perfil *(em construção)*
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Backlog e Desenvolvimento
+
+### 🔧 Jira
+Para organização das tarefas e acompanhamento do desenvolvimento, utilizamos o Jira. Acesse nosso backlog e sprints:  
+🔗 [https://cesar---bezy.atlassian.net/jira/software/projects/BEZY/boards/1](https://cesar---bezy.atlassian.net/jira/software/projects/BEZY/boards/1)
+
+### 🎨 Protótipos Lo-Fi (Figma)
+Os protótipos iniciais estão disponíveis no Figma para consulta e validação:  
+🔗 [https://www.figma.com/proto/WtoO9gaEcyqsauhtwaG4AT/Bezy?node-id=9-627&p=f&t=4xViWbnZh93HmdGv-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=9%3A627](https://www.figma.com/proto/WtoO9gaEcyqsauhtwaG4AT/Bezy?node-id=9-627&p=f&t=4xViWbnZh93HmdGv-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=9%3A627)
+
+### 🎥 Screencast do Projeto
+Assista ao vídeo de apresentação da proposta do Bezy:  
+🔗 [https://www.youtube.com/watch?v=6zeOWeKXAes](https://www.youtube.com/watch?v=6zeOWeKXAes)
+
+## 📌 Status do Projeto
+- ✅ **Kickoff** *(Concluído)*  
+- 🚧 **Entrega 01** *(Em andamento)*  
+- ⏳ **Entrega 02, 03 e 04** *(Aguardando desenvolvimento)*
