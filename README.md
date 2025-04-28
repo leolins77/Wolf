@@ -46,6 +46,9 @@ Como cliente, quero agendar um horário com um profissional para garantir meu at
 - [ ] Confirmação por e-mail ou notificação *(em construção)*  
 - [ ] Cancelamento com até 1h de antecedência *(em construção)*
 
+![image](https://github.com/user-attachments/assets/d2006357-089e-4d0d-aec0-214f9e6d8d73)
+
+
 ---
 
 ### 2. Cadastro e Login
@@ -61,6 +64,11 @@ Como usuário, quero me cadastrar e fazer login para acessar a plataforma.
 - [x] Tela de login e escolha de perfil (Protótipo ✅)  
 - [x] Tela de cadastro com dados básicos (Protótipo ✅)  
 - [ ] Redirecionamento para dashboard *(em construção)*
+
+![image](https://github.com/user-attachments/assets/c4af6629-8610-41bc-8a17-1a5bc4da5a54)
+
+![image](https://github.com/user-attachments/assets/e41cd122-0420-41ea-a3d0-6c28c1bbdcc6)
+
 
 ---
 
@@ -91,6 +99,9 @@ Como cliente, quero visualizar os profissionais disponíveis e filtrar por espec
 **Confirmation:**  
 - [x] Tela de lista de profissionais (Protótipo ✅)  
 - [ ] Filtro por especialidade e localização *(em construção)*
+
+![image](https://github.com/user-attachments/assets/789ac845-e591-401f-b339-cacbe043431a)
+
 
 ---
 
