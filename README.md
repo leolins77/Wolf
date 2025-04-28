@@ -132,6 +132,11 @@ Os protótipos iniciais estão disponíveis no Figma para consulta e validação
 Assista ao vídeo de apresentação da proposta do Bezy:  
 🔗 [https://www.youtube.com/watch?v=6zeOWeKXAes](https://www.youtube.com/watch?v=6zeOWeKXAes)
 
+## Programação em par (Justificativa)
+
+Optamos por não utilizar a programação em par por sermos apenas em 3 integrantes, juntamente com a divergência de horários de cada um, e, por precisarmos entregar 3 telas, cada um foi designado para fazer uma tela.
+  Além de fazermos reuniões mostrando como estava ficando cada tela, para assim, sabermos o que cada um estava fazendo. E com tudo alinhado, enviar o que fizemos para nosso repositório no GitHub.
+
 ## 📌 Status do Projeto
 - ✅ **Kickoff** *(Concluído)*  
 - 🚧 **Entrega 01** *(Em andamento)*  
