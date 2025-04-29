@@ -132,6 +132,9 @@ Os protótipos iniciais estão disponíveis no Figma para consulta e validação
 Assista ao vídeo de apresentação da proposta do Bezy:  
 🔗 [https://www.youtube.com/watch?v=6zeOWeKXAes](https://www.youtube.com/watch?v=6zeOWeKXAes)
 
+### 🖧 Deployment Bezy (Vercel)  
+🔗 https://wolf-sand.vercel.app
+
 ## Programação em par (Justificativa)
 
 Optamos por não utilizar a programação em par por sermos apenas em 3 integrantes, juntamente com a divergência de horários de cada um, e, por precisarmos entregar 3 telas, cada um foi designado para fazer uma tela.
