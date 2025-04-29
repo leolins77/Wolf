@@ -132,6 +132,9 @@ Os protótipos iniciais estão disponíveis no Figma para consulta e validação
 Assista ao vídeo de apresentação da proposta do Bezy:  
 🔗 [https://www.youtube.com/watch?v=6zeOWeKXAes](https://www.youtube.com/watch?v=6zeOWeKXAes)
 
+Assista ao vídeo de implementação das 3 histórias de usuário que fizemos utilizando React, HTML e CSS.
+🔗 https://youtu.be/ujdQANTK_rw
+
 ### 🖧 Deployment Bezy (Vercel)
 Clique e visualize como está o bezy na internet:
 🔗 https://wolf-sand.vercel.app
