@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import "./CadastroUser.css";
 
 function CadastroUser() {
@@ -8,6 +9,8 @@ function CadastroUser() {
   const [confirmarSenha, setConfirmarSenha] = useState('');
   const [dataNascimento, setDataNascimento] = useState('');
   const [erro, setErro] = useState('');
+  
+  const navigate = useNavigate();
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -24,14 +27,15 @@ function CadastroUser() {
 
     setErro('');
     alert('Cadastro realizado com sucesso!');
+    navigate('/confirmar');
   };
 
   return (
-    <div className="cadastro-user">
-      <h2>Cadastro de Usuário</h2>
-      {erro && <div className="error">{erro}</div>}
-      <form onSubmit={handleSubmit}>
-        <div className="campo">
+    <div className="cadastro-page-container">
+      <h2 className="cadastro-page-title">Cadastro de Usuário</h2>
+      {erro && <div className="cadastro-page-error">{erro}</div>}
+      <form className="cadastro-page-form" onSubmit={handleSubmit}>
+        <div className="cadastro-page-campo">
           <label htmlFor="nome">Nome</label>
           <input
             type="text"
@@ -40,7 +44,7 @@ function CadastroUser() {
             onChange={(e) => setNome(e.target.value)}
           />
         </div>
-        <div className="campo">
+        <div className="cadastro-page-campo">
           <label htmlFor="email">Email</label>
           <input
             type="email"
@@ -49,7 +53,7 @@ function CadastroUser() {
             onChange={(e) => setEmail(e.target.value)}
           />
         </div>
-        <div className="campo">
+        <div className="cadastro-page-campo">
           <label htmlFor="senha">Senha</label>
           <input
             type="password"
@@ -58,7 +62,7 @@ function CadastroUser() {
             onChange={(e) => setSenha(e.target.value)}
           />
         </div>
-        <div className="campo">
+        <div className="cadastro-page-campo">
           <label htmlFor="confirmarSenha">Confirmar Senha</label>
           <input
             type="password"
@@ -67,7 +71,7 @@ function CadastroUser() {
             onChange={(e) => setConfirmarSenha(e.target.value)}
           />
         </div>
-        <div className="campo">
+        <div className="cadastro-page-campo">
           <label htmlFor="dataNascimento">Data de Nascimento</label>
           <input
             type="date"
@@ -76,7 +80,7 @@ function CadastroUser() {
             onChange={(e) => setDataNascimento(e.target.value)}
           />
         </div>
-        <button type="submit">Cadastrar</button>
+        <button className="cadastro-page-botao" type="submit">Cadastrar</button>
       </form>
     </div>
   );

@@ -1,26 +1,33 @@
 import React from "react";
+import { useNavigate } from "react-router-dom"; 
 import "./Inicio.css";
 
 function Inicio() {
+  const navigate = useNavigate(); 
+
+  const irParaCadastro = () => {
+    navigate('/cadastro'); 
+  };
+
   return (
-    <div className="inicio-container">
-      <header className="inicio-header">
-        <div className="logo">
+    <div className="inicio-page-container">
+      <header className="inicio-page-header">
+        <div className="inicio-page-logo">
           <img src="/logo-bezy.png" alt="Bezy Logo" />
         </div>
-        <nav className="navegacao">
-          <a href="#">Criar conta</a>
-          <a href="#">Entrar</a>
+        <nav className="inicio-page-navegacao">
+          <a href="#" onClick={irParaCadastro}>Criar conta</a>
+          <a href="#" onClick={irParaCadastro}>Entrar</a>
         </nav>
       </header>
 
-      <main className="hero">
-        <div className="hero-texto">
+      <main className="inicio-page-hero">
+        <div className="inicio-page-hero-texto">
           <h1>Beleza que vai até você.</h1>
           <p>Agende serviços de beleza e bem-estar no conforto da sua casa, com profissionais verificados e altamente qualificados.</p>
-          <button className="botao-entrar">Entrar</button>
+          <button className="inicio-page-botao-entrar" onClick={irParaCadastro}>Entrar</button>
         </div>
-        <div className="hero-imagem">
+        <div className="inicio-page-hero-imagem">
           <img src="/hero-image.png" alt="Atendimento de beleza" />
         </div>
       </main>
