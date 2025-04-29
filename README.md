@@ -137,7 +137,12 @@ Clique e visualize como está o bezy na internet:
 🔗 https://wolf-sand.vercel.app
 
 ### 🗺️ Diagramas de Atividade 
-Tela de Início e Agendamento - https://lucid.app/lucidspark/ef0e403b-cef3-43f8-865d-7d63c3344cad/edit?viewport_loc=-1280%2C-338%2C3111%2C1545%2C0_0&invitationId=inv_60bcd29a-81c1-4bcb-afbf-4f56efe682e2
+- https://lucid.app/lucidspark/ef0e403b-cef3-43f8-865d-7d63c3344cad/edit?viewport_loc=-1280%2C-338%2C3111%2C1545%2C0_0&invitationId=inv_60bcd29a-81c1-4bcb-afbf-4f56efe682e2
+
+Diagrama da Tela de Agendamento
+
+![image](https://github.com/user-attachments/assets/3643422f-28ca-4158-b109-c25ba8569328)
+
 
 ## Programação em par (Justificativa)
 
