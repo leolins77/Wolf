@@ -136,6 +136,11 @@ Assista ao vídeo de apresentação da proposta do Bezy:
 Clique e visualize como está o bezy na internet:
 🔗 https://wolf-sand.vercel.app
 
+### ❗💻 ISSUE/BUG Tracker:
+
+![image](https://github.com/user-attachments/assets/661e2eb8-996c-4ce2-a9c9-b6a4350861e6)
+
+
 ### 🗺️ Diagramas de Atividade 
 - https://lucid.app/lucidspark/ef0e403b-cef3-43f8-865d-7d63c3344cad/edit?viewport_loc=-1280%2C-338%2C3111%2C1545%2C0_0&invitationId=inv_60bcd29a-81c1-4bcb-afbf-4f56efe682e2
 
