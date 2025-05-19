@@ -90,4 +90,182 @@
   max-width: 100%;
   height: auto;
 }
+/* Seções adicionadas */
+.secao-beneficios,
+.secao-servicos,
+.secao-como-usar,
+.secao-depoimentos,
+.secao-final {
+  padding: 4rem 2rem;
+}
+
+.secao-beneficios {
+  background: #f5f0ff;
+  text-align: center;
+}
+
+.secao-beneficios h2 {
+  color: #5f2c82;
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+
+.beneficios-lista {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.beneficio {
+  background: #f9f4ff;
+  padding: 1.5rem;
+  border-radius: 16px;
+  max-width: 250px;
+  text-align: center;
+}
+
+.beneficio img {
+  height: 64px;
+  margin-bottom: 1rem;
+}
+
+.secao-servicos {
+  background: #f5f0ff;
+  text-align: center;
+}
+
+.servicos-lista {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.servico {
+  background: #fff8f0;
+  padding: 1rem;
+  border-radius: 12px;
+  width: 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.servico img {
+  height: 48px;
+  margin-bottom: 0.5rem;
+}
+
+.ver-todos {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #5f2c82;
+}
+
+.secao-como-usar {
+  background: #f5f0ff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.secao-como-usar .texto {
+  flex: 1;
+  min-width: 280px;
+  padding: 1rem;
+}
+
+.secao-como-usar .texto h2 {
+  color: #5f2c82;
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+.secao-como-usar .texto ul {
+  list-style: none;
+  padding: 0;
+  color: #5f2c82;
+  font-size: 1rem;
+}
+
+.secao-como-usar .texto li {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem; /* Espaço entre a imagem e o texto */
+  margin-bottom: 0.75rem;
+}
+
+.secao-como-usar .texto li img {
+  height: 24px;
+  width: 24px;
+  object-fit: contain;
+}
+
+.secao-como-usar .imagem img {
+  width: 220px;
+  height: auto;
+}
+
+
+.secao-depoimentos {
+  background: white;
+  text-align: center;
+}
+
+.secao-depoimentos h2 {
+  color: #5f2c82;
+  margin-bottom: 2rem;
+}
+
+.depoimentos-lista {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.depoimentos-lista blockquote {
+  background: #f5f0ff;
+  padding: 1.5rem;
+  border-left: 5px solid #c09ce3;
+  border-radius: 8px;
+  max-width: 300px;
+  font-style: italic;
+  color: #5f2c82;
+}
+
+.secao-final {
+  background: #e7dff8;
+  text-align: center;
+}
+
+.secao-final h2 {
+  color: #4c2670;
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+.secao-final p {
+  margin-bottom: 1.5rem;
+  color: #5f2c82;
+}
+
+.secao-final button {
+  background: #fff3e8;
+  border: none;
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  color: #5f2c82;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.secao-final button:hover {
+  opacity: 0.85;
+}
 
