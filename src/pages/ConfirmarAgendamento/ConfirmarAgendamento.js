@@ -1,5 +1,5 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 import "./ConfirmarAgendamento.css";
 
 function ConfirmarAgendamento() {
@@ -16,14 +16,16 @@ function ConfirmarAgendamento() {
   return (
     <div className="confirmar-page-container">
       <header className="confirmar-page-header">
-      <img src="/logo-bezy.png" alt="Logo Bezy" className="confirmar-page-logo" />
+        <img src="/logo-bezy.png" alt="Logo Bezy" className="confirmar-page-logo" />
         <nav>
-          <a href="#">Início</a>
-          <a href="#">Serviços</a>
-          <a href="#">Favoritos</a>
+          <Link to="/">Início</Link>
+          <Link to="/servicos">Serviços</Link>
+          <Link to="/favoritos">Favoritos</Link>
+          <Link to="/contato">Contato</Link>
+          <Link to="/sobre">Sobre Nós</Link>
         </nav>
         <div className="confirmar-page-icone">
-          <span role="img" aria-label="perfil">👤</span>
+      <img src="icone-perfil.png" alt="Perfil" className="profissionais-perfil-icon" />
         </div>
       </header>
 
@@ -38,9 +40,10 @@ function ConfirmarAgendamento() {
           <p className="confirmar-page-info"><strong>Preço:</strong> R$ 60,00</p>
 
           <div className="confirmar-page-botoes">
-            <button className="confirmar-page-botao-voltar" onClick={handleVoltar}>‹ Voltar</button>
-            <button className="confirmar-page-botao-confirmar" onClick={handleConfirmar}>Confirmar Agendamento</button>
-          </div>
+  <Link to="/profissionais" className="confirmar-page-botao-voltar">‹ Voltar</Link>
+  <button className="confirmar-page-botao-confirmar" onClick={handleConfirmar}>Confirmar Agendamento</button>
+</div>
+
         </div>
 
         <div className="confirmar-page-card">
@@ -57,5 +60,3 @@ function ConfirmarAgendamento() {
 }
 
 export default ConfirmarAgendamento;
-
-

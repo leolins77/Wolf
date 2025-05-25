@@ -1,0 +1,193 @@
+
+.profissionais-wrapper {
+  font-family: 'Poppins', sans-serif;
+  background-color: #dbcef3; 
+  min-height: 100vh;
+}
+
+
+.profissionais-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e8e3f1;
+  padding: 1rem 2rem;
+}
+
+.profissionais-logo {
+  height: 40px;
+}
+
+.profissionais-nav {
+  display: flex;
+}
+
+.profissionais-nav a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #5f2c82;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.profissionais-nav a:hover {
+  color: #7a4fcf;
+}
+
+.profissionais-perfil-icon {
+  height: 28px;
+}
+
+
+.profissionais-main {
+  padding: 40px 24px;
+  max-width: 1000px;
+  margin: 0 auto;
+  position: relative;
+  text-align: left;
+}
+
+.profissionais-voltar {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  background-color: transparent;
+  border: 2px solid #5e4b8b;
+  color: #5e4b8b;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+
+
+  margin-left: 0;
+  text-align: left;
+  width: fit-content;  
+}
+
+
+.profissionais-voltar:hover {
+  background-color: #5e4b8b;
+  color: #fff;
+  box-shadow: 0 4px 12px rgba(94, 75, 139, 0.3);
+}
+
+
+.profissionais-header-textos {
+  max-width: 420px; 
+  margin-left: 0;  
+  margin-bottom: 24px;
+  text-align: left;
+}
+
+.profissionais-titulo {
+  color: #5e4b8b;
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.profissionais-subtitulo {
+  font-size: 14px;
+  color: #5e4b8b;
+  margin-bottom: 24px;
+}
+
+
+.profissionais-filtro {
+  margin-bottom: 24px;
+}
+
+.profissionais-filtro select {
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: 1px solid #b9a8dc;
+  background-color: #fff;
+  font-size: 14px;
+}
+
+
+.profissionais-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 24px;
+  justify-content: center;
+  justify-items: center;
+}
+
+
+.profissionais-card {
+  background-color: #ffffff;
+  border: 2px solid #b9a8dc;
+  border-radius: 12px;
+  padding: 16px;
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  transition: transform 0.2s, box-shadow 0.3s;
+  width: 100%;
+  max-width: 420px;
+}
+
+.profissionais-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.profissionais-foto {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.profissionais-info {
+  flex: 1;
+  text-align: left; 
+}
+
+.profissionais-nome {
+  font-weight: 600;
+  color: #5e4b8b;
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+.profissionais-avaliacao {
+  font-size: 14px;
+  color: #7a4fcf;
+  margin-bottom: 4px;
+}
+
+.profissionais-distancia {
+  font-size: 13px;
+  color: #888;
+  margin-bottom: 8px;
+}
+
+.profissionais-servicos {
+  font-size: 13px;
+  color: #5d4e7e;
+  margin-bottom: 10px;
+}
+
+.profissionais-agendar {
+  background-color: #d8c9f3;
+  border: none;
+  border-radius: 8px;
+  padding: 6px 16px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #5f2c82;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.profissionais-agendar:hover {
+  background-color: #c8b5ee;
+}

@@ -168,8 +168,10 @@
   background: #f5f0ff;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
+  gap: 10rem; 
+  padding: 5rem; 
 }
 
 .secao-como-usar .texto {
@@ -194,7 +196,7 @@
 .secao-como-usar .texto li {
   display: flex;
   align-items: center;
-  gap: 0.75rem; /* Espaço entre a imagem e o texto */
+  gap: 0.75rem; 
   margin-bottom: 0.75rem;
 }
 

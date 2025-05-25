@@ -8,7 +8,7 @@ function CadastroUser() {
   const [senha, setSenha] = useState('');
   const [confirmarSenha, setConfirmarSenha] = useState('');
   const [dataNascimento, setDataNascimento] = useState('');
-  const [tipoUsuario, setTipoUsuario] = useState('cliente'); // cliente ou profissional
+  const [tipoUsuario, setTipoUsuario] = useState('cliente');
   const [especialidades, setEspecialidades] = useState('');
   const [endereco, setEndereco] = useState('');
   const [descricao, setDescricao] = useState('');
@@ -38,13 +38,27 @@ function CadastroUser() {
 
     setErro('');
     alert('Cadastro realizado com sucesso!');
-    navigate('/confirmar');
+    navigate('/servicos');
   };
 
   return (
     <div className="cadastro-page-container">
+      <img
+        src="/logo-bezy.png"
+        alt="Logo Bezy"
+        className="cadastro-page-logo"
+      />
+
+      <button
+        className="cadastro-page-voltar"
+        onClick={() => navigate('/')}
+      >
+        ← Voltar para o início
+      </button>
+
       <h2 className="cadastro-page-title">Cadastro de Usuário</h2>
       {erro && <div className="cadastro-page-error">{erro}</div>}
+
       <form className="cadastro-page-form" onSubmit={handleSubmit}>
         <div className="cadastro-page-campo">
           <label htmlFor="tipoUsuario">Você é:</label>
@@ -67,6 +81,7 @@ function CadastroUser() {
             onChange={(e) => setNome(e.target.value)}
           />
         </div>
+
         <div className="cadastro-page-campo">
           <label htmlFor="email">Email</label>
           <input
@@ -76,6 +91,7 @@ function CadastroUser() {
             onChange={(e) => setEmail(e.target.value)}
           />
         </div>
+
         <div className="cadastro-page-campo">
           <label htmlFor="senha">Senha</label>
           <input
@@ -85,6 +101,7 @@ function CadastroUser() {
             onChange={(e) => setSenha(e.target.value)}
           />
         </div>
+
         <div className="cadastro-page-campo">
           <label htmlFor="confirmarSenha">Confirmar Senha</label>
           <input
@@ -94,6 +111,7 @@ function CadastroUser() {
             onChange={(e) => setConfirmarSenha(e.target.value)}
           />
         </div>
+
         <div className="cadastro-page-campo">
           <label htmlFor="dataNascimento">Data de Nascimento</label>
           <input
@@ -115,6 +133,7 @@ function CadastroUser() {
                 onChange={(e) => setEspecialidades(e.target.value)}
               />
             </div>
+
             <div className="cadastro-page-campo">
               <label htmlFor="endereco">Endereço</label>
               <input
@@ -124,6 +143,7 @@ function CadastroUser() {
                 onChange={(e) => setEndereco(e.target.value)}
               />
             </div>
+
             <div className="cadastro-page-campo">
               <label htmlFor="descricao">Descrição</label>
               <textarea
@@ -137,8 +157,25 @@ function CadastroUser() {
           </>
         )}
 
-        <button className="cadastro-page-botao" type="submit">Cadastrar</button>
+        <button className="cadastro-page-botao" type="submit">
+          Cadastrar
+        </button>
       </form>
+
+      <div className="cadastro-social-login">
+        <p><strong>Ou cadastre-se com:</strong></p>
+        <div className="social-icons">
+          <button className="social-btn google">
+            <img src="/icone-google.png" alt="Google" />
+          </button>
+          <button className="social-btn facebook">
+            <img src="/icone-facebook.png" alt="Facebook" />
+          </button>
+          <button className="social-btn apple">
+            <img src="/icone-apple.png" alt="Apple" />
+          </button>
+        </div>
+      </div>
     </div>
   );
 }

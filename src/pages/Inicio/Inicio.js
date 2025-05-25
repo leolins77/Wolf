@@ -39,22 +39,22 @@ function Inicio() {
           <div className="beneficio">
             <img src="/icone-comodidade.png" alt="Comodidade total" />
             <h3>COMODIDADE TOTAL</h3>
-            <p>Atendimento onde e quando você quiser, direto da sua casa.</p>
+            <p><strong>Atendimento onde e quando você quiser, direto da sua casa.</strong></p>
           </div>
           <div className="beneficio">
             <img src="/icone-profissionais.png" alt="Profissionais" />
             <h3>PROFISSIONAIS QUALIFICADOS</h3>
-            <p>Todos os parceiros são avaliados e certificados.</p>
+            <p><strong>Todos os parceiros são avaliados e certificados.</strong></p>
           </div>
           <div className="beneficio">
             <img src="/icone-agendamento.png" alt="Agendamento fácil" />
             <h3>AGENDAMENTO RÁPIDO E FÁCIL</h3>
-            <p>Em poucos cliques, escolha o serviço, horário e profissional.</p>
+            <p><strong>Em poucos cliques, escolha o serviço, horário e profissional.</strong></p>
           </div>
           <div className="beneficio">
             <img src="/icone-higiene.png" alt="Higiene e segurança" />
             <h3>HIGIENE E SEGURANÇA</h3>
-            <p>Protocolos rigorosos de limpeza e cuidado com o cliente.</p>
+            <p><strong>Protocolos rigorosos de limpeza e cuidado com o cliente.</strong></p>
           </div>
         </div>
       </section>

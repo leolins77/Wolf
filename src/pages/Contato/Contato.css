@@ -1,0 +1,97 @@
+.contato-container {
+  font-family: 'Poppins', sans-serif;
+  color: #5D4E7E;
+  background-color: #EFE9FC;
+  min-height: 100vh;
+}
+
+.contato-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e8e3f1;
+  padding: 1rem 2rem;
+}
+
+.contato-logo {
+  height: 40px;
+}
+
+.contato-header nav a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #5f2c82;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.contato-header nav a:hover {
+  color: #7a4fcf;
+}
+
+.contato-icone {
+  font-size: 1.5rem;
+}
+
+.contato-banner {
+  background: url('/public/imagem-banner-contato.jpg') no-repeat center center;
+  background-size: cover;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contato-banner h1 {
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.contato-info {
+  padding: 2rem 3rem;
+  font-size: 1.1rem;
+}
+
+.contato-info p {
+  margin-bottom: 1rem;
+}
+
+.contato-info ul {
+  list-style-type: disc;
+  padding-left: 2rem;
+}
+
+.contato-equipe {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.contato-pessoa {
+  text-align: center;
+}
+
+.contato-pessoa img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 0.5rem;
+  border: 3px solid #5D4E7E;
+}
+
+.contato-pessoa a {
+  display: block;
+  text-decoration: none;
+  color: #5D4E7E;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.contato-pessoa a:hover {
+  color: #7a4fcf;
+}

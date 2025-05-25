@@ -7,7 +7,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: #f0eaff;
+  background-color: #e8e3f1;
 }
 
 .confirmar-page-logo {
@@ -109,6 +109,7 @@
   text-align: center;
   color: #5f2c82;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-color: white;
 }
 
 .confirmar-page-card:hover {
