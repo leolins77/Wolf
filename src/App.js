@@ -7,6 +7,7 @@ import Sobre from './pages/Sobre/Sobre';
 import Contato from './pages/Contato/Contato';
 import Servicos from './pages/Servicos/Servicos';
 import Profissionais from './pages/Profissionais/Profissionais';
+import Agendados from './pages/Agendados/Agendados';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/contato" element={<Contato />} /> 
           <Route path="/servicos" element={<Servicos />} /> 
           <Route path="/profissionais" element={<Profissionais />} /> 
+          <Route path="/agendados" element={<Agendados/>} /> 
         </Routes>
       </div>
     </Router>

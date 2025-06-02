@@ -12,34 +12,58 @@ function CadastroUser() {
   const [especialidades, setEspecialidades] = useState('');
   const [endereco, setEndereco] = useState('');
   const [descricao, setDescricao] = useState('');
+  const [foto, setFoto] = useState(''); 
   const [erro, setErro] = useState('');
 
   const navigate = useNavigate();
 
   const handleSubmit = (e) => {
-    e.preventDefault();
+  e.preventDefault();
 
-    if (!nome || !email || !senha || !confirmarSenha || !dataNascimento) {
-      setErro('Todos os campos são obrigatórios!');
+  if (!nome || !email || !senha || !confirmarSenha || !dataNascimento) {
+    setErro('Todos os campos são obrigatórios!');
+    return;
+  }
+
+  if (senha !== confirmarSenha) {
+    setErro('As senhas não coincidem!');
+    return;
+  }
+
+  if (tipoUsuario === 'profissional') {
+    if (!especialidades || !endereco || !descricao) {
+      setErro('Todos os campos do perfil profissional são obrigatórios!');
       return;
     }
+  }
 
-    if (senha !== confirmarSenha) {
-      setErro('As senhas não coincidem!');
-      return;
-    }
+  setErro('');
 
-    if (tipoUsuario === 'profissional') {
-      if (!especialidades || !endereco || !descricao) {
-        setErro('Todos os campos do perfil profissional são obrigatórios!');
-        return;
-      }
-    }
-
-    setErro('');
-    alert('Cadastro realizado com sucesso!');
-    navigate('/servicos');
+  const dadosUsuario = {
+    nome,
+    email,
+    senha,
+    dataNascimento,
+    tipoUsuario,
+    foto,
+    ...(tipoUsuario === 'profissional' && {
+      especialidades,
+      endereco,
+      descricao
+    })
   };
+
+  console.log("Dados do usuário:", dadosUsuario);
+ 
+
+  if (tipoUsuario === 'profissional') {
+    navigate('/agendados');
+  } else {
+    navigate('/servicos');
+  }
+};
+
+
 
   return (
     <div className="cadastro-page-container">
@@ -121,6 +145,25 @@ function CadastroUser() {
             onChange={(e) => setDataNascimento(e.target.value)}
           />
         </div>
+
+        {/* ✅ Campo para upload da foto */}
+        <div className="cadastro-page-campo">
+          <label htmlFor="foto">Foto de Perfil</label>
+          <input
+            type="file"
+            id="foto"
+            accept="image/*"
+            onChange={(e) => setFoto(URL.createObjectURL(e.target.files[0]))}
+          />
+        </div>
+
+        {/* ✅ Prévia da foto */}
+        {foto && (
+          <div style={{ marginTop: '10px', textAlign: 'center' }}>
+            <p>Prévia da foto:</p>
+            <img src={foto} alt="Prévia da Foto" width="100" style={{ borderRadius: '8px' }} />
+          </div>
+        )}
 
         {tipoUsuario === 'profissional' && (
           <>

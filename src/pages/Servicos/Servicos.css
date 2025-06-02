@@ -3,10 +3,10 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #e8e3f1; 
+  background-color: #e8e3f1; /* fundo lilás clarinho */
   padding: 1rem 2rem;
   font-family: 'Poppins', sans-serif;
-  color: #5f2c82; 
+  color: #5f2c82; /* texto roxo escuro */
 }
 
 .servicos-logo {
@@ -39,21 +39,22 @@
   min-height: 100vh;
 }
 
+/* Conteúdo principal */
 .servicos-main {
   padding: 40px 24px;
   max-width: 1000px;
   margin: 0 auto;
   text-align: center;
-  color: #5f2c82; 
+  color: #5f2c82; /* texto roxo escuro */
 }
 
-
+/* Título */
 .servicos-titulo {
   font-size: 28px;
   margin-bottom: 32px;
 }
 
-
+/* Grid de serviços */
 .servicos-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -62,7 +63,7 @@
   padding: 0 16px;
 }
 
-
+/* Cards dos serviços com fundo branco para contraste */
 .servicos-item {
   display: flex;
   flex-direction: column;
@@ -72,8 +73,8 @@
   padding: 24px;
   width: 100%;
   max-width: 220px;
-  background-color: #ffffff; 
-  color: #5f2c82;
+  background-color: #ffffff; /* branco para destacar */
+  color: #5f2c82; /* texto roxo escuro */
   transition: transform 0.2s, box-shadow 0.3s;
 }
 

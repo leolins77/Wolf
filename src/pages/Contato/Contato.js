@@ -43,7 +43,7 @@ const Contato = () => {
           </div>
           <div className="contato-pessoa">
             <img src="/foto-joao.jpg" alt="João Eduardo" />
-            <a href="#">João Eduardo</a>
+            <a href="https://www.linkedin.com/in/joão-eduardo-7543481b8/">João Eduardo</a>
           </div>
           <div className="contato-pessoa">
             <img src="/foto-jonas.jpg" alt="Jonas Lima" />

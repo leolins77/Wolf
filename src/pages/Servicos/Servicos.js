@@ -12,7 +12,7 @@ export default function Serviços() {
           <Link to="/servicos">Serviços</Link>
           <Link to="/favoritos">Favoritos</Link>
           <Link to="/contato">Contato</Link>
-          <Link to="/sobre">Sobre Nós</Link>
+          <Link to="/agendado">Sobre Nós</Link>
         </nav>
         <img src="icone-perfil.png" alt="Perfil" className="servicos-perfil-icon" />
       </header>
