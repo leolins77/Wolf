@@ -179,22 +179,7 @@ Como usuário, quero ter acesso fácil a informações de contato e canais de su
 
 ---
 
-### 10. **Finalização e Atualização de Protótipos (Lo-Fi)**
-
-**Card:**
-Como parte da equipe de design/desenvolvimento, quero garantir que os protótipos Lo-Fi do projeto estejam atualizados e reflitam as funcionalidades implementadas no front-end, servindo como documentação visual do que foi construído.
-
-**Conversation:**
-- Os protótipos no Figma são revisados e ajustados para corresponder às telas e fluxos desenvolvidos em React.js.
-- As atualizações incluem novas telas ou modificações nas existentes, alinhando o design com a implementação.
-
-**Confirmation:**
-- [x] Protótipos Lo-Fi atualizados no Figma (BEZY-84 - https://cesar---bezy.atlassian.net/jira/software/projects/BEZY/boards/1?selectedIssue=BEZY-84)
-- [x] Link do Figma no README.md aponta para a versão mais recente dos protótipos (BEZY-84 - https://cesar---bezy.atlassian.net/jira/software/projects/BEZY/boards/1?selectedIssue=BEZY-84)
-
----
-
-### 11. **Roteamento Interno da Aplicação (Experiência SPA)**
+### 10. **Roteamento Interno da Aplicação (Experiência SPA)**
 
 **Card:**
 Como usuário, quero que a navegação entre as diferentes seções do aplicativo seja fluida e que a URL do navegador reflita a página atual, proporcionando uma experiência de Single Page Application (SPA) e permitindo que eu compartilhe ou salve links diretamente.
