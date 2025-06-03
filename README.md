@@ -30,8 +30,6 @@ Este projeto está alinhado com o **ODS 8 - Trabalho Decente e Crescimento Econ�
 
 ## 🧩 Histórias de Usuário (3Cs)
 
-Nesta entrega final, focamos na implementação das seguintes histórias de usuário no front-end, detalhadas no formato 3Cs (Card, Conversation, Confirmation). Cada história está associada a evidências em nosso Jira e links diretos para o repositório GitHub, demonstrando o progresso alcançado nesta fase do projeto Bezy.
-
 ### 1. **Página Inicial e Fluxo de Acesso**
 
 **Card:**
