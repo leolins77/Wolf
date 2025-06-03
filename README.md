@@ -229,6 +229,10 @@ Assista ao vídeo de implementação das 3 histórias de usuário que fizemos ut
 
 🔗 https://youtu.be/ujdQANTK_rw
 
+Assista ao vídeo do MVP do Bezy e suas funcionalidades: 
+
+🔗 https://youtu.be/zyH-4Y5pKEU
+
 ### 🖧 Deployment Bezy (Vercel)
 Clique e visualize como está o bezy na internet:
 
