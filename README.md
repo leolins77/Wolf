@@ -150,7 +150,7 @@ Clique e visualize como está o bezy na internet:
 
 🔗 https://lucid.app/lucidspark/ef0e403b-cef3-43f8-865d-7d63c3344cad/edit?viewport_loc=-1280%2C-338%2C3111%2C1545%2C0_0&invitationId=inv_60bcd29a-81c1-4bcb-afbf-4f56efe682e2
 
-### Diagrama de fluxo de tela completo:
+### Diagrama de atividades completo: 
 
 ![image](https://github.com/user-attachments/assets/25029d26-bb5d-4eb0-b817-4dfc5b621544)
 
