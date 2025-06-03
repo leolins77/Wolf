@@ -242,6 +242,10 @@ Clique e visualize como está o bezy na internet:
 
 ![image](https://github.com/user-attachments/assets/661e2eb8-996c-4ce2-a9c9-b6a4350861e6)
 
+### ❗💻 ISSUE/BUG Tracker não finalizados:
+
+![image](https://github.com/user-attachments/assets/1c6c19d8-4f9b-4b1f-a43b-5ae7fccd2cea)
+
 
 ### 🗺️ Diagramas de Atividade: 
 
