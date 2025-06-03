@@ -44,6 +44,16 @@ Como novo usuário, quero acessar uma página inicial convidativa que apresente 
 - [x] Página inicial (Landing Page) implementada com sucesso (BEZY-96 - https://cesar---bezy.atlassian.net/browse/BEZY-96)
 - [x] Seções de benefícios e chamadas para ação bem definidas (BEZY-96 - https://cesar---bezy.atlassian.net/browse/BEZY-96)
 
+![image](https://github.com/user-attachments/assets/1b1a0ee9-ff1f-4c07-8d36-cc1aa791775f)
+
+![image](https://github.com/user-attachments/assets/415b9b32-2214-4d70-b01d-b7a3eee48517)
+
+![image](https://github.com/user-attachments/assets/bd503b0b-69e0-4565-ab1a-4542c8a6f035)
+
+[ScreenCast Bezy (MVP FINAL)](https://www.youtube.com/watch?v=zyH-4Y5pKEU)  0:18 
+
+
+
 ---
 
 ### 2. **Cadastro e Criação de Perfil com Upload de Imagem**
@@ -62,6 +72,19 @@ Como usuário, quero me cadastrar e criar um perfil (seja como cliente ou profis
 - [x] Campo para upload de imagem no cadastro funcional (BEZY-79 - https://cesar---bezy.atlassian.net/browse/BEZY-79)
 - [x] Opções de cadastro para cliente e profissional presentes (BEZY-79 - https://cesar---bezy.atlassian.net/browse/BEZY-79)
 
+**CADASTRO DE CLIENTE:**
+
+![image](https://github.com/user-attachments/assets/2bb4d32f-44fd-4f91-9a15-f73b4395ea4a)
+
+[ScreenCast Bezy (MVP FINAL)](https://www.youtube.com/watch?v=zyH-4Y5pKEU)  0:41
+
+**CADASTRO DE PROFISSIONAL:**
+
+![image](https://github.com/user-attachments/assets/5f3201cd-7f4d-4378-83f6-18ac849e7d0d)
+
+[ScreenCast Bezy (MVP FINAL)](https://www.youtube.com/watch?v=zyH-4Y5pKEU)  2:04
+
+
 ---
 
 ### 3. **Navegação Global e Acesso a Páginas**
@@ -79,6 +102,10 @@ Como usuário, quero navegar facilmente entre as principais seções da platafor
 - [x] Roteamento de páginas com React Router funcional (BEZY-98 - https://cesar---bezy.atlassian.net/browse/BEZY-98)
 - [x] Navegação fluida entre todas as rotas principais do aplicativo (BEZY-98 - https://cesar---bezy.atlassian.net/browse/BEZY-98)
 
+![image](https://github.com/user-attachments/assets/8009a705-a45f-4664-a6f3-168b256921e9)
+
+[ScreenCast Bezy (MVP FINAL)](https://www.youtube.com/watch?v=zyH-4Y5pKEU) 1:02
+
 ---
 
 ### 4. **Visualização e Seleção de Serviços Detalhada**
@@ -94,6 +121,10 @@ Como cliente, quero ver uma lista clara e organizada de serviços de beleza disp
 **Confirmation:**
 - [x] Tela de seleção de serviços implementada e funcional (BEZY-91 - https://cesar---bezy.atlassian.net/browse/BEZY-91)
 - [x] Categorias de serviços claramente apresentadas e clicáveis (BEZY-91 - https://cesar---bezy.atlassian.net/browse/BEZY-91)
+
+![image](https://github.com/user-attachments/assets/8009a705-a45f-4664-a6f3-168b256921e9)
+
+[ScreenCast Bezy (MVP FINAL)](https://www.youtube.com/watch?v=zyH-4Y5pKEU) 1:02
 
 ---
 
@@ -113,6 +144,11 @@ Como cliente, quero visualizar os profissionais de beleza disponíveis, com suas
 - [x] Funcionalidade de ordenação por Avaliação e Distância implementada (BEZY-90 - https://cesar---bezy.atlassian.net/browse/BEZY-90)
 - [x] Exibição das especialidades e pontuação de avaliação dos profissionais (BEZY-90 - https://cesar---bezy.atlassian.net/browse/BEZY-90)
 
+![image](https://github.com/user-attachments/assets/e4eabb9b-a3b9-4909-a8ee-04fa563baa97)
+
+[ScreenCast Bezy (MVP FINAL)](https://www.youtube.com/watch?v=zyH-4Y5pKEU) 1:12
+
+
 ---
 
 ### 6. **Confirmação e Detalhes de Pagamento do Agendamento**
@@ -128,6 +164,10 @@ Como cliente, quero revisar todos os detalhes do meu agendamento e ter uma indic
 **Confirmation:**
 - [x] Tela de confirmação de agendamento implementada (BEZY-92 - https://cesar---bezy.atlassian.net/browse/BEZY-92)
 - [x] Exibição de todos os detalhes do agendamento, incluindo o método de pagamento (BEZY-92 - https://cesar---bezy.atlassian.net/browse/BEZY-92)
+
+![image](https://github.com/user-attachments/assets/5f8abfcb-dba0-403a-bbbc-549cdf17e4c5)
+
+[ScreenCast Bezy (MVP FINAL)](https://www.youtube.com/watch?v=zyH-4Y5pKEU) 1:20
 
 ---
 
@@ -145,6 +185,11 @@ Como profissional, quero visualizar meus agendamentos confirmados com detalhes d
 - [x] Tela de visualização de serviços agendados para profissionais implementada (BEZY-93 - https://cesar---bezy.atlassian.net/browse/BEZY-93)
 - [x] Detalhes essenciais (cliente, serviço, horário, endereço) visíveis para cada agendamento (BEZY-93 - https://cesar---bezy.atlassian.net/browse/BEZY-93)
 
+![image](https://github.com/user-attachments/assets/5ce04861-8d05-4b09-a4c8-3a86effbb8fc)
+
+[ScreenCast Bezy (MVP FINAL)](https://www.youtube.com/watch?v=zyH-4Y5pKEU) 2:44
+
+
 ---
 
 ### 8. **Página Institucional "Sobre Nós"**
@@ -159,6 +204,11 @@ Como usuário, quero acessar uma página dedicada para entender a missão, visã
 **Confirmation:**
 - [x] Página "Sobre Nós" implementada e acessível via navegação global (BEZY-94 - https://cesar---bezy.atlassian.net/browse/BEZY-94)
 - [x] Conteúdo com missão, visão, valores e informações da equipe (BEZY-94 - https://cesar---bezy.atlassian.net/browse/BEZY-94)
+
+![image](https://github.com/user-attachments/assets/c8b7f461-b4a0-4f34-888d-a1d7246ffd31)
+
+[ScreenCast Bezy (MVP FINAL)](https://www.youtube.com/watch?v=zyH-4Y5pKEU) 1:35
+
 
 ---
 
@@ -177,6 +227,10 @@ Como usuário, quero ter acesso fácil a informações de contato e canais de su
 - [x] Canais de comunicação (e-mail, WhatsApp, redes sociais) claramente exibidos (BEZY-95 - https://cesar---bezy.atlassian.net/browse/BEZY-95)
 - [x] Links para perfis dos membros da equipe na página (BEZY-95 - https://cesar---bezy.atlassian.net/browse/BEZY-95)
 
+![image](https://github.com/user-attachments/assets/52a0309f-4222-49ed-8b55-d04b21604f43)
+
+[ScreenCast Bezy (MVP FINAL)](https://www.youtube.com/watch?v=zyH-4Y5pKEU) 1:48
+
 ---
 
 ### 10. **Roteamento Interno da Aplicação (Experiência SPA)**
@@ -193,6 +247,17 @@ Como usuário, quero que a navegação entre as diferentes seções do aplicativ
 - [x] Roteamento interno da aplicação configurado com `react-router-dom` (BEZY-98 - https://cesar---bezy.atlassian.net/browse/BEZY-98)
 - [x] Navegação fluida e sem refresh entre as principais rotas (BEZY-98 - https://cesar---bezy.atlassian.net/browse/BEZY-98)
 - [x] URLs amigáveis refletindo a página atual (`/`, `/servicos`, `/profissionais`, `/confirmar`, `/agendados`, `/sobre`, `/contato`) (BEZY-98 - https://cesar---bezy.atlassian.net/browse/BEZY-98)
+
+![image](https://github.com/user-attachments/assets/1b6b949b-b0be-452d-8916-5b8b6ea34c4c)
+
+![image](https://github.com/user-attachments/assets/86b44d61-8391-47dc-8118-fafaaee5024e)
+
+![image](https://github.com/user-attachments/assets/55705dd1-1db4-4ecf-a30b-6e2afed68183)
+
+[ScreenCast Bezy (MVP FINAL)](https://www.youtube.com/watch?v=zyH-4Y5pKEU) 1:02 até 1:34
+
+
+
 
 ---
 
