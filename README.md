@@ -30,7 +30,7 @@ Este projeto está alinhado com o **ODS 8 - Trabalho Decente e Crescimento Econ�
 
 ## 🧩 Histórias de Usuário (3Cs)
 
-Com base nas funcionalidades implementadas, detalhamos as seguintes 11 histórias de usuário no formato 3Cs (Card, Conversation, Confirmation), com links diretos para as evidências em nosso Jira e repositório GitHub:
+Nesta entrega final, focamos na implementação das seguintes 11 histórias de usuário no front-end, detalhadas no formato 3Cs (Card, Conversation, Confirmation). Cada história está associada a evidências em nosso Jira e links diretos para o repositório GitHub, demonstrando o progresso alcançado nesta fase do projeto Bezy.
 
 ### 1. **Página Inicial e Fluxo de Acesso**
 
@@ -43,8 +43,8 @@ Como novo usuário, quero acessar uma página inicial convidativa que apresente 
 - Botões claros de "Criar conta" e "Entrar" direcionam o usuário para o fluxo de autenticação.
 
 **Confirmation:**
-- [x] Página inicial (Landing Page) implementada com sucesso 
-- [x] Seções de benefícios e chamadas para ação bem definidas 
+- [x] Página inicial (Landing Page) implementada com sucesso (BEZY-96 - https://cesar---bezy.atlassian.net/browse/BEZY-96)
+- [x] Seções de benefícios e chamadas para ação bem definidas (BEZY-96 - https://cesar---bezy.atlassian.net/browse/BEZY-96)
 
 ---
 
@@ -60,9 +60,9 @@ Como usuário, quero me cadastrar e criar um perfil (seja como cliente ou profis
 - Um campo específico permite o upload de uma foto de perfil, personalizando a experiência.
 
 **Confirmation:**
-- [x] Telas de Cadastro de Usuário e Profissional implementadas
-- [x] Campo para upload de imagem no cadastro funcional
-- [x] Opções de cadastro para cliente e profissional presentes
+- [x] Telas de Cadastro de Usuário e Profissional implementadas (BEZY-79 - https://cesar---bezy.atlassian.net/browse/BEZY-79)
+- [x] Campo para upload de imagem no cadastro funcional (BEZY-79 - https://cesar---bezy.atlassian.net/browse/BEZY-79)
+- [x] Opções de cadastro para cliente e profissional presentes (BEZY-79 - https://cesar---bezy.atlassian.net/browse/BEZY-79)
 
 ---
 
@@ -77,9 +77,9 @@ Como usuário, quero navegar facilmente entre as principais seções da platafor
 - A URL na barra de endereço do navegador se atualiza dinamicamente conforme o usuário navega, mantendo a responsividade do aplicativo.
 
 **Confirmation:**
-- [x] Componente de Navegação Global (Header) implementado e reutilizado 
-- [x] Roteamento de páginas com React Router funcional 
-- [x] Navegação fluida entre todas as rotas principais do aplicativo 
+- [x] Componente de Navegação Global (Header) implementado e reutilizado (BEZY-97 - https://cesar---bezy.atlassian.net/browse/BEZY-97)
+- [x] Roteamento de páginas com React Router funcional (BEZY-98 - https://cesar---bezy.atlassian.net/browse/BEZY-98)
+- [x] Navegação fluida entre todas as rotas principais do aplicativo (BEZY-98 - https://cesar---bezy.atlassian.net/browse/BEZY-98)
 
 ---
 
@@ -94,8 +94,8 @@ Como cliente, quero ver uma lista clara e organizada de serviços de beleza disp
 - Cada categoria é clicável e direciona o usuário para uma lista de profissionais especializados naquele serviço.
 
 **Confirmation:**
-- [x] Tela de seleção de serviços implementada e funcional 
-- [x] Categorias de serviços claramente apresentadas e clicáveis 
+- [x] Tela de seleção de serviços implementada e funcional (BEZY-91 - https://cesar---bezy.atlassian.net/browse/BEZY-91)
+- [x] Categorias de serviços claramente apresentadas e clicáveis (BEZY-91 - https://cesar---bezy.atlassian.net/browse/BEZY-91)
 
 ---
 
@@ -110,10 +110,10 @@ Como cliente, quero visualizar os profissionais de beleza disponíveis, com suas
 - Um seletor permite ordenar a lista por "Avaliação" ou "Distância".
 
 **Confirmation:**
-- [x] Tela de listagem de profissionais implementada 
-- [x] Exibição clara de foto, nome, avaliação e distância para cada profissional 
-- [x] Funcionalidade de ordenação por Avaliação e Distância implementada 
-- [x] Exibição das especialidades e pontuação de avaliação dos profissionais 
+- [x] Tela de listagem de profissionais implementada (BEZY-90 - )
+- [x] Exibição clara de foto, nome, avaliação e distância para cada profissional (BEZY-90 - https://cesar---bezy.atlassian.net/browse/BEZY-90)
+- [x] Funcionalidade de ordenação por Avaliação e Distância implementada (BEZY-90 - https://cesar---bezy.atlassian.net/browse/BEZY-90)
+- [x] Exibição das especialidades e pontuação de avaliação dos profissionais (BEZY-90 - https://cesar---bezy.atlassian.net/browse/BEZY-90)
 
 ---
 
@@ -128,8 +128,8 @@ Como cliente, quero revisar todos os detalhes do meu agendamento e ter uma indic
 - Um botão "Confirmar Agendamento" permite prosseguir.
 
 **Confirmation:**
-- [x] Tela de confirmação de agendamento implementada 
-- [x] Exibição de todos os detalhes do agendamento, incluindo o método de pagamento 
+- [x] Tela de confirmação de agendamento implementada (BEZY-92 - https://cesar---bezy.atlassian.net/browse/BEZY-92)
+- [x] Exibição de todos os detalhes do agendamento, incluindo o método de pagamento (BEZY-92 - https://cesar---bezy.atlassian.net/browse/BEZY-92)
 
 ---
 
@@ -144,8 +144,8 @@ Como profissional, quero visualizar meus agendamentos confirmados com detalhes d
 - Esta lista serve como uma visão rápida da carga de trabalho e compromissos futuros.
 
 **Confirmation:**
-- [x] Tela de visualização de serviços agendados para profissionais implementada 
-- [x] Detalhes essenciais (cliente, serviço, horário, endereço) visíveis para cada agendamento 
+- [x] Tela de visualização de serviços agendados para profissionais implementada (BEZY-93 - https://cesar---bezy.atlassian.net/browse/BEZY-93)
+- [x] Detalhes essenciais (cliente, serviço, horário, endereço) visíveis para cada agendamento (BEZY-93 - https://cesar---bezy.atlassian.net/browse/BEZY-93)
 
 ---
 
@@ -159,8 +159,8 @@ Como usuário, quero acessar uma página dedicada para entender a missão, visã
 - A página apresenta informações institucionais sobre a Bezy, sua origem, missão, visão e valores, além de uma seção destacando os fundadores do projeto.
 
 **Confirmation:**
-- [x] Página "Sobre Nós" implementada e acessível via navegação global
-- [x] Conteúdo com missão, visão, valores e informações da equipe 
+- [x] Página "Sobre Nós" implementada e acessível via navegação global (BEZY-94 - https://cesar---bezy.atlassian.net/browse/BEZY-94)
+- [x] Conteúdo com missão, visão, valores e informações da equipe (BEZY-94 - https://cesar---bezy.atlassian.net/browse/BEZY-94)
 
 ---
 
@@ -175,9 +175,9 @@ Como usuário, quero ter acesso fácil a informações de contato e canais de su
 - Informações sobre os membros da equipe, incluindo links para seus perfis profissionais (LinkedIn), são apresentadas.
 
 **Confirmation:**
-- [x] Página de Contato implementada e acessível
-- [x] Canais de comunicação (e-mail, WhatsApp, redes sociais) claramente exibidos 
-- [x] Links para perfis dos membros da equipe na página 
+- [x] Página de Contato implementada e acessível (BEZY-95 - https://cesar---bezy.atlassian.net/browse/BEZY-95)
+- [x] Canais de comunicação (e-mail, WhatsApp, redes sociais) claramente exibidos (BEZY-95 - https://cesar---bezy.atlassian.net/browse/BEZY-95)
+- [x] Links para perfis dos membros da equipe na página (BEZY-95 - https://cesar---bezy.atlassian.net/browse/BEZY-95)
 
 ---
 
@@ -191,8 +191,8 @@ Como parte da equipe de design/desenvolvimento, quero garantir que os protótipo
 - As atualizações incluem novas telas ou modificações nas existentes, alinhando o design com a implementação.
 
 **Confirmation:**
-- [x] Protótipos Lo-Fi atualizados no Figma 
-- [x] Link do Figma no README.md aponta para a versão mais recente dos protótipos 
+- [x] Protótipos Lo-Fi atualizados no Figma (BEZY-84 - https://cesar---bezy.atlassian.net/jira/software/projects/BEZY/boards/1?selectedIssue=BEZY-84)
+- [x] Link do Figma no README.md aponta para a versão mais recente dos protótipos (BEZY-84 - https://cesar---bezy.atlassian.net/jira/software/projects/BEZY/boards/1?selectedIssue=BEZY-84)
 
 ---
 
@@ -207,9 +207,11 @@ Como usuário, quero que a navegação entre as diferentes seções do aplicativ
 - Todas as rotas essenciais da aplicação estão configuradas via React Router DOM, direcionando para os componentes React corretos.
 
 **Confirmation:**
-- [x] Roteamento interno da aplicação configurado com `react-router-dom`
-- [x] Navegação fluida e sem refresh entre as principais rotas
-- [x] URLs amigáveis refletindo a página atual (`/`, `/servicos`, `/profissionais`, `/confirmar`, `/agendados`, `/sobre`, `/contato`)
+- [x] Roteamento interno da aplicação configurado com `react-router-dom` (BEZY-98 - https://cesar---bezy.atlassian.net/browse/BEZY-98)
+- [x] Navegação fluida e sem refresh entre as principais rotas (BEZY-98 - https://cesar---bezy.atlassian.net/browse/BEZY-98)
+- [x] URLs amigáveis refletindo a página atual (`/`, `/servicos`, `/profissionais`, `/confirmar`, `/agendados`, `/sobre`, `/contato`) (BEZY-98 - https://cesar---bezy.atlassian.net/browse/BEZY-98)
+
+---
 
 ## Backlog e Desenvolvimento
 
