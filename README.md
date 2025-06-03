@@ -30,7 +30,7 @@ Este projeto está alinhado com o **ODS 8 - Trabalho Decente e Crescimento Econ�
 
 ## 🧩 Histórias de Usuário (3Cs)
 
-Nesta entrega final, focamos na implementação das seguintes 11 histórias de usuário no front-end, detalhadas no formato 3Cs (Card, Conversation, Confirmation). Cada história está associada a evidências em nosso Jira e links diretos para o repositório GitHub, demonstrando o progresso alcançado nesta fase do projeto Bezy.
+Nesta entrega final, focamos na implementação das seguintes histórias de usuário no front-end, detalhadas no formato 3Cs (Card, Conversation, Confirmation). Cada história está associada a evidências em nosso Jira e links diretos para o repositório GitHub, demonstrando o progresso alcançado nesta fase do projeto Bezy.
 
 ### 1. **Página Inicial e Fluxo de Acesso**
 
@@ -110,7 +110,7 @@ Como cliente, quero visualizar os profissionais de beleza disponíveis, com suas
 - Um seletor permite ordenar a lista por "Avaliação" ou "Distância".
 
 **Confirmation:**
-- [x] Tela de listagem de profissionais implementada (BEZY-90 - )
+- [x] Tela de listagem de profissionais implementada (BEZY-90 - https://cesar---bezy.atlassian.net/browse/BEZY-90)
 - [x] Exibição clara de foto, nome, avaliação e distância para cada profissional (BEZY-90 - https://cesar---bezy.atlassian.net/browse/BEZY-90)
 - [x] Funcionalidade de ordenação por Avaliação e Distância implementada (BEZY-90 - https://cesar---bezy.atlassian.net/browse/BEZY-90)
 - [x] Exibição das especialidades e pontuação de avaliação dos profissionais (BEZY-90 - https://cesar---bezy.atlassian.net/browse/BEZY-90)
@@ -267,11 +267,11 @@ Clique e visualize como está o bezy na internet:
 
 ![image](https://github.com/user-attachments/assets/3643422f-28ca-4158-b109-c25ba8569328)
 
-
 ## Programação em par (Justificativa)
 
-Optamos por não utilizar a programação em par por sermos apenas em 3 integrantes, juntamente com a divergência de horários de cada um, e, por precisarmos entregar 3 telas, cada um foi designado para fazer uma tela.
-  Além de fazermos reuniões mostrando como estava ficando cada tela, para assim, sabermos o que cada um estava fazendo. E com tudo alinhado, enviar o que fizemos para nosso repositório no GitHub.
+Em nosso projeto, com uma equipe de 3 integrantes, a programação em par contínua não foi nossa principal forma de trabalho. Isso aconteceu, em grande parte, pela nossa **disponibilidade de horários** que variava bastante. Para a gente conseguir entregar as funcionalidades a tempo, decidimos dividir as telas e as responsabilidades do front-end entre nós, aproveitando o que cada um fazia melhor.
+
+Mas isso não quer dizer que não trabalhamos juntos! Pelo contrário, a **colaboração foi super presente**. Fazíamos **reuniões frequentes para alinhar as coisas**, onde cada um mostrava o que estava fazendo, a gente dava ideia, resolvia uns perrengues ali na hora, e sim, **até codificamos juntos em momentos chave ou um ajudou o outro a sugerir melhorias no código**. No fim das contas, a gente alinhava tudo nas reuniões e subia pro nosso repositório no GitHub, garantindo que o trabalho de todo mundo se encaixava bem e que o código ficasse legal. Essa forma de trabalhar, bem na nossa realidade, nos permitiu entregar um bom resultado dentro do prazo.
 
 ## 📌 Status do Projeto
 - ✅ **Kickoff** *(Concluído)*  
